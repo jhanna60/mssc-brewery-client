@@ -49,8 +49,7 @@ public class BlockingRestTemplateCustomizer implements RestTemplateCustomizer {
                 .build();
 
         return new HttpComponentsClientHttpRequestFactory(httpClient);
-
-    };
+    }
 
     @Override
     public void customize(RestTemplate restTemplate){
